@@ -5,14 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
-
+    <script src="javascript.js"></script>
 </head>
 <body>
-    
     <nav>
         <span>Matt Krichmar</span>
         <div>
@@ -20,31 +15,45 @@
             <a href="about.html">About</a> |
             <a href="portfolio.html">Portfolio</a> |
             <a href="contact.html">Contact</a>
-        </div> 
+        </div>
     </nav>
 
-    <h1>Coder, Film Enthusiast, and Father</h1>
-    <div class="image-blurb">
-        <h2 class=>When I am not working on becoming a better coder, I am watching movies with my friends and cooking for my family.</h2>
-        <img src="Matt.jpg" alt="Matt" height="375px">
-    </div>
-    <h3 class="quote">"You have power over your mind – not outside events. Realize this, and you will find strength."</h3>
-    <h3>-Marcus Aurelius</h3>
+    <h1>Contact</h1>
+    <article>
+        <form action="success.html" target="_blank" method="get" class=fullForm>
+            <div class="fullName">
+                <label for="firstName">First Name</label> <br>
+                <input type="text" name="firstName" id="firstName"> <br>
+                <label for="lastName">Last Name</label> <br>
+                <input type="text" name="lastName" id="lastName">
+            </div>
+            <br>
+            <div class="email">
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div class="message">
+                <label for="message">Message:</label> <br>
+                <textarea name="message" id="message" cols="60" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit" class="submit">
+            </div>           
+        </form>
+    </article>
+
     <footer>
         <a href="https://www.facebook.com/mkrichmar">
             <img class="social" src="https://fsa-personal-website-part-1-0b8b53efdbf4.herokuapp.com/images/facebook.svg" alt="FaceBook">
         </a>
-        <br>
-        <br>
         <a href="https://www.linkedin.com/in/matthew-krichmar-75908454/">
             <img class="social" src="https://fsa-personal-website-part-1-0b8b53efdbf4.herokuapp.com/images/linkedin.svg" alt="LinkedIn">
         </a>
-        <br>
-        <br>
         <a href="https://twitter.com/Matt_the_agent">
             <img class="social" src="https://fsa-personal-website-part-1-0b8b53efdbf4.herokuapp.com/images/twitter.svg" alt="Twitter">
         </a>
     </footer>
-
 </body>
 </html>
