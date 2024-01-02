@@ -5,7 +5,7 @@ nav {
     right: 0;
     display: flex;
     height: 50px;
-    background-image: linear-gradient(darkblue,cornflowerblue);
+    background-image: linear-gradient(cornflowerblue, darkblue);
     color: cornsilk;
     font-size: xx-large;
     font-weight: 300;
@@ -21,10 +21,9 @@ h1 {
 }
 
 body {
-    background-color:cornsilk;
+    background-image:linear-gradient(darkolivegreen, cornsilk, cornflowerblue);
     margin: 5%;
     margin-bottom: 100px;
-
 }
 
 a {
@@ -50,7 +49,7 @@ a {
 footer {
     left: 0;
     right: 0;
-    background-image:linear-gradient(darkolivegreen,aquamarine);
+    background-image:linear-gradient(darkolivegreen,forestgreen);
     display: flex;
     justify-content: center;
     position: fixed;
@@ -105,4 +104,22 @@ footer {
 
 a:hover {
     color: cornsilk;
+}
+
+.fullForm {
+    padding: 10px;
+    display: grid;
+    justify-content: space-between;
+    align-items:flex-end;
+
+}
+
+.submit {
+   background-color: forestgreen;
+   border: none;
+   color: cornsilk;
+}
+
+.submit:hover {
+    background-color:darkolivegreen;
 }
